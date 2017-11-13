@@ -25,7 +25,7 @@
     //创建caLayer
     CALayer *myLayer = [CALayer layer];
     myLayer.bounds = CGRectMake(0, 0, 50, 50);
-    myLayer.backgroundColor = [UIColor whiteColor].CGColor;
+    myLayer.backgroundColor = [UIColor redColor].CGColor;
     myLayer.position = CGPointMake(50, 50);
     myLayer.anchorPoint = CGPointMake(0.5, 0.5);//锚点
 //    myLayer.cornerRadius = 20;
